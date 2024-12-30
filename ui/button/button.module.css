@@ -1,7 +1,8 @@
 .primary-button {
+  background-color: #f0efda;
   font-family: "montserrat", cursive;
   font-size: 30px;
-  color: #f0efda;
+  color: #ac1a22;
   border: solid 3px #ac1a22;
   border-radius: 5px;
   width: 300px;
