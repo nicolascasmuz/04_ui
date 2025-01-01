@@ -6,6 +6,7 @@ import {
 } from "@/ui/button/index";
 import { StyledTitle } from "@/ui/styled-title/index";
 import { Background } from "@/ui/background/index";
+import { HippoIcon, HippoIcon2, HippoIcon3 } from "@/ui/icons/hippo-icon";
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
         <SecondButton>Submit</SecondButton>
         <ThirdButton>Submit</ThirdButton>
         <MuiButton>Submit</MuiButton>
+        <HippoIcon style={{ height: "100px", filter: "Invert(90%)" }} />
+        <HippoIcon2 />
+        <HippoIcon3 />
       </div>
     </Background>
   );
